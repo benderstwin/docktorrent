@@ -20,7 +20,7 @@ BitTorrent box.
 
 Clone this repository and build the image locally:
 ```bash
-git clone https://github.com/kfei/docktorrent
+git clone https://github.com/bender77/docktorrent
 cd docktorrent
 docker build -t docktorrent .
 ```
@@ -28,7 +28,7 @@ docker build -t docktorrent .
 The building process may take some time. You can just pull the latest image
 from mine:
 ```bash
-docker pull kfei/docktorrent
+docker pull bender77/docktorrent
 ```
 
 After the image is built or pulled, run the docktorrent container, for example:
@@ -84,11 +84,6 @@ your OS platform.
 
   - `docker stop` can gracefully shutdown rTorrent if you give it more time by
 `docker stop -t 120` (which means 120 seconds to time out).
-
-## Feedback
-
-Bug reports and feature suggestions are both welcome. Feel free to use the
-[issue tracker](https://github.com/kfei/docktorrent/issues).
 
 ## Screenshots
 
