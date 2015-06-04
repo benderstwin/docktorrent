@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER kfei <kfei@kfei.net>
+MAINTAINER Bender77
 
 ENV VER_LIBTORRENT 0.13.4
 ENV VER_RTORRENT 0.9.4
